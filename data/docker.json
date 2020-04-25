@@ -85,7 +85,11 @@
 		        {
                     "definition": "List of all ডকার ইমেজ",
                     "code": "docker images"
-                },    
+                },
+                {
+                    "definition": "ডকার ইমেজ inspect করে কন্টেইনার এর ডিটেইলস লেবেল দেখতে",
+                    "code": "docker image inspect <IMAGE_ID>"
+                },
                 {
                     "definition": "ডকার ইমেজ remove করতে",
                     "code": "docker rmi <image_id>"
